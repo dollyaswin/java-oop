@@ -1,9 +1,9 @@
 package com.aqilix.learning.java;
 
 public class Person {
-	String name;
+	private String name;
 	
-	int age;
+	private int age;
 	
 	public String getName() {
 		return name;
