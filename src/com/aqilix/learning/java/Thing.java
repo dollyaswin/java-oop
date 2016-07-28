@@ -7,6 +7,16 @@ public class Thing {
 	
 	public static String description;
 	
+	public static int count;
+
+	public Thing() {
+		count++;
+	}
+	
+	public static void displayCounter() {
+		System.out.println("Counter: " + count);
+	}
+	
 	public static void displayInfo() {
 		System.out.println(description);
 	}

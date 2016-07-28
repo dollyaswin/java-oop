@@ -2,17 +2,20 @@ import com.aqilix.learning.java.Thing;
 
 public class Static {
 	public static void main(String[] args) {
-		Thing.description = "I'am string";
+		Thing.description = "I'am a thing";
 		Thing.displayInfo();
+		Thing.displayCounter();
 		
 		Thing thing1 = new Thing();
 		thing1.setName("First");
 		thing1.displayName();
-		thing1.displayInfo();
+		Thing.displayInfo();
+		Thing.displayCounter();
 		
 		Thing thing2 = new Thing();
 		thing2.setName("Second");
 		thing2.displayName();
-		thing2.displayInfo();
+		Thing.displayInfo();
+		Thing.displayCounter();
 	}
 }
