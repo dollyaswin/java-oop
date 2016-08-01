@@ -33,4 +33,9 @@ public class Thing {
 	{
 		System.out.println(this.name);
 	}
+	
+	public String toString()
+	{
+		return uniqId + " " + this.name;
+	}
 }
