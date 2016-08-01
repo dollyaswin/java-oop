@@ -1,6 +1,6 @@
 package com.aqilix.learning.java;
 
-public class Machine {
+public class Machine implements Info {
 	private String name;
 	
 	private String type;

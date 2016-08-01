@@ -1,6 +1,6 @@
 package com.aqilix.learning.java;
 
-public class Person {
+public class Person implements Info{
 	private String name;
 	
 	private int age;
