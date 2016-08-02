@@ -6,7 +6,7 @@ public class Machine implements Info {
 	private String type;
 	
 	public Machine() {
-		System.out.println("First constructor running!");
+//		System.out.println("First constructor running!");
 //		this("Sewing");
 	}
 	
@@ -41,5 +41,9 @@ public class Machine implements Info {
 	public void displayInfo() {
 		System.out.println("Name: " + this.getName());
 		System.out.println("Type: " + this.getType());
+	}
+	
+	public void start() {
+		System.out.println("Machine Started.");
 	}
 }
