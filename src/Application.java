@@ -1,12 +1,12 @@
-import com.aqilix.learning.java.Person;
+import com.aqilix.learning.java.Employee;
 
 public class Application {
 	public static void main(String[] args) {
-		Person newPerson = new Person();
-		newPerson.setName("Foo");
-		newPerson.setAge(10);
-		newPerson.displayInfo();
-		newPerson.move("left", 10.0);
-		newPerson.move("right", 9.8);
+		Employee employee = new Employee();
+		employee.setName("Foo");
+		employee.setAge(10);
+		employee.displayInfo();
+		employee.move("left", 10.0);
+		employee.move("right", 9.8);
 	}
 }

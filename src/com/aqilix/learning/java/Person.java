@@ -1,6 +1,6 @@
 package com.aqilix.learning.java;
 
-public class Person implements Info{
+public abstract class Person implements Info {
 	private String name;
 	
 	private int age;
@@ -29,4 +29,8 @@ public class Person implements Info{
 		System.out.println("Name: " + this.getName());
 		System.out.println("Age: " + this.getAge());
 	}
+	
+	public abstract void run();
+	
+	public abstract void jump();
 }

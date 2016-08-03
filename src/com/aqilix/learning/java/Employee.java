@@ -16,4 +16,16 @@ public class Employee extends Person {
 		super.displayInfo();
 		System.out.println("Id: " + this.getId());
 	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void jump() {
+		// TODO Auto-generated method stub
+		
+	}
 }
