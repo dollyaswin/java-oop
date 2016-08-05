@@ -4,6 +4,14 @@ public class Employee extends Person {
 	private static final long serialVersionUID = 412485023940458203L;
 	
 	private String id;
+	
+	public Employee() {
+	}
+	
+	public Employee(String id, String name) {
+		this.setId(id);
+		this.setName(name);
+	}
 
 	public String getId() {
 		return id;
