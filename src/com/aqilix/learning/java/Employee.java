@@ -28,4 +28,11 @@ public class Employee extends Person {
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public String toString() {
+		return this.getId() + ": " + this.getName();
+	}
+	
+	
 }

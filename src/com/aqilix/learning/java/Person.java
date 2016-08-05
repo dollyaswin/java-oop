@@ -1,6 +1,8 @@
 package com.aqilix.learning.java;
 
-public abstract class Person implements Info {
+import java.io.Serializable;
+
+public abstract class Person implements Info, Serializable {
 	private String name;
 	
 	private int age;
