@@ -11,7 +11,7 @@ public class Serialization {
 		employee.setAge(20);
 		employee.setId("16090845");
 //		System.out.println(employee);
-		System.out.println("Serializing object...");
+		System.out.println("Serializing Object: " + employee);
 		
 		String dataDir  = "data";
 		String filename = "employee.bin";
@@ -20,10 +20,11 @@ public class Serialization {
 			ObjectOutputStream os = new ObjectOutputStream(fs);
 			os.writeObject(employee);
 			os.close();
+			System.out.println("Success.");
 		} catch (FileNotFoundException e) {
-			System.out.println(e.getMessage());
+			System.out.println("Fail. " + e.getMessage());
 		} catch (IOException e) {
-			e.printStackTrace();
+			System.out.println("Fail. " + e.getMessage());
 		}
 	}
 }
