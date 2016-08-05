@@ -1,6 +1,8 @@
 package com.aqilix.learning.java;
 
 public class Employee extends Person {
+	private static final long serialVersionUID = 412485023940458203L;
+	
 	private String id;
 
 	public String getId() {
